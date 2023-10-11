@@ -88,16 +88,17 @@ Paper :
 ### Secretome
 
 - qc.R 
-- msqrob.R
+- secretome_differentialabundance.R
 
 ### Single-cell RNA-seq
 
-- integration
-- module estimation, DE
+- Integration_utils.R 
+- Integrate_rust2020_jevitt2020.R
+- mbfc_vs_sfc.R
 
 ### Compilation of results
 
-- combine DE outputs - multimodal_comparison.R 
+- multimodal_comparison.R 
 
 
 
@@ -109,9 +110,8 @@ Paper :
 - [ ] Clean up code base and push to GitHub
   - [x] Clean up translatome
   - [x] secretome
-  - [ ] ScRNAseq
-  - [ ] compilation 
-  - [ ] supplementary table tsp to color coded excel sheet 
+  - [x] ScRNAseq
+  - [ ] compilation
 - [ ] Shape analysis of morphological defects
 - [ ] Write significance statement
 - [ ] Write discussion 
